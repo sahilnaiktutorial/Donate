@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Donate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Donate.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

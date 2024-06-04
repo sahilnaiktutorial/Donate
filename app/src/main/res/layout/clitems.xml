@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="Event Type"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/event"
+                android:layout_width="248dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:text="AICTE Activity"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="Addditional Information"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/add"
+                android:layout_width="248dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:text="Student awareness program regarding the usage of plastics"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="email"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/usermail"
+                android:layout_width="248dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:text="nehavijay685@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/location"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:text="Sahyadri College of Engineering and Management"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
